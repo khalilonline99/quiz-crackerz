@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.card-container img {
+    width: 150px;
+}
+
