@@ -1,0 +1,25 @@
+.hero-container {
+    background-color: lightgrey;
+    width: 75%;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.text-on-header-image {
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: 45%
+}
+
+.text-on-header-image{
+    font-size: 35px;
+}
+
+.hero-container img {
+    /* width: 500px; */
+    height: 350px;
+    padding: 10px;
+    opacity: 65%;
+}
