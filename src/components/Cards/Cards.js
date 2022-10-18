@@ -1,14 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cards.css'
 
 const Cards = ({ singleCard }) => {
     console.log(singleCard);
+    const {logo, name, total} = singleCard;
 
     return (
+        
         <div className='card-container'>
-            <img src={singleCard.logo} alt="" />
-            <p>Name: {singleCard.name}</p>
-            <p>Total: {singleCard.total}</p>
+            <Link to='/blogs'>
+            <img src={logo} alt="" />
+            <p>Name: {name}</p>
+            <p>Total: {total}</p>
+            </Link>
         </div>
 
     );

@@ -17,10 +17,6 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: '/quiz',
-          element: <Quiz></Quiz>
-        },
-        {
           path: '/blogs',
           element: <Blogs></Blogs>
         },

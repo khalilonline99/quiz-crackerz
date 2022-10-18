@@ -5,11 +5,16 @@
     background-color: lightgrey;
     width: 350px;
     border-radius: 10px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 
+}
+
+.card-container a {
+    text-decoration: none;
 }
 
 .card-container img {
     width: 150px;
 }
-

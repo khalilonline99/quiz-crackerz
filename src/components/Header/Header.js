@@ -12,7 +12,6 @@ const Header = () => {
             <div>
 
                 <Link to='/'>Home</Link>
-                <Link to='/quiz'>Quiz</Link>
                 <Link to='/blogs'>Blogs</Link>
             </div>
 
