@@ -5,6 +5,7 @@ import Cards from '../Cards/Cards';
 import QuizQuestions from '../QuizQuestions/QuizQuestions';
 import './Quiz.css'
 
+
 const Quiz = () => {
     const { id } = useParams()
     const { data } = useFetch(`https://openapi.programming-hero.com/api/quiz/${id}`)

@@ -1,8 +1,9 @@
 .quiz {
     background-color: blueviolet;
-    width: 75%;
+    width: 73%;
     border-radius: 10px;
     margin: auto;
+    padding: 10px;
 }
 .quiz img {
     width: 150px;

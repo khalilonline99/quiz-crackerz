@@ -3,11 +3,31 @@
     grid-template-columns: repeat(2, 1fr);
     width: 600px;
     margin: auto;
+    justify-items: start;
 }
 
 .answer-remark {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+    color: white;
+}
+
+.single-QA {
+}
+
+.singla-QA-full{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+
+.icon {
+    width: 25px;
     color: white;
 }
