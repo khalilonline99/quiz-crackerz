@@ -8,7 +8,7 @@ import './Quiz.css'
 const Quiz = () => {
     const { id } = useParams()
     const { data } = useFetch(`https://openapi.programming-hero.com/api/quiz/${id}`)
-  
+
     return (
         <div>
             {data && (
@@ -16,9 +16,9 @@ const Quiz = () => {
                     <h3> Quiz for {data.data.name} </h3>
                     <img src={data.data.logo} alt="" />
                     {
-                        data.data.questions.map(questions => <QuizQuestions 
-                            key = {questions.id}
-                            questions = {questions}></QuizQuestions>)
+                        data.data.questions.map(questions => <QuizQuestions
+                            key={questions.id}
+                            questions={questions}></QuizQuestions>)
                     }
                 </div>
             )}

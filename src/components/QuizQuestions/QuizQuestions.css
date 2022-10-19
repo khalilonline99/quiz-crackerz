@@ -4,3 +4,10 @@
     width: 600px;
     margin: auto;
 }
+
+.answer-remark {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    color: white;
+}
