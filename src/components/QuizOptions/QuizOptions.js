@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const QuizOptions = ({option}) => {
-    console.log(option);
+const QuizOptions = ({ option }) => {
+    const [answer, setAnswer] = useState('');
+    console.log(answer);
+
     return (
         <div>
-            <input type="radio" id="html" name="fav_language" value="HTML"></input>
-            <h5>{option}</h5>
+            <input type="radio" name="fav_language" value={option} onChange={e => setAnswer(e.target.value)} /> {option}
         </div>
     );
 };
