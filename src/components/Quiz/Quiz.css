@@ -1,0 +1,9 @@
+.quiz {
+    background-color: blueviolet;
+    width: 75%;
+    border-radius: 10px;
+    margin: auto;
+}
+.quiz img {
+    width: 150px;
+}

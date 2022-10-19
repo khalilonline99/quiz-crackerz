@@ -9,7 +9,7 @@ const Cards = ({ singleCard }) => {
     return (
         
         <div className='card-container'>
-            <Link to={`https://openapi.programming-hero.com/api/quiz/${id}`}>
+            <Link to={`quiz/${id}`}>
             <img src={logo} alt="" />
             <p>Name: {name}</p>
             <p>Total: {total}</p>

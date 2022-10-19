@@ -20,6 +20,10 @@ function App() {
           path: '/blogs',
           element: <Blogs></Blogs>
         },
+        {
+          path: '/quiz/:id',
+          element: <Quiz></Quiz>
+        },
       ]
     }
   ]);
