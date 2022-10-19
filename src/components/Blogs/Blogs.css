@@ -1,0 +1,8 @@
+.blogs section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+}

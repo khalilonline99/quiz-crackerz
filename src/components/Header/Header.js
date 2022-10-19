@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='nav-container'>
             <div>
-                <h2>Knowledge Checker</h2>
+                <h2><Link to='/'>Knowledge Checker</Link></h2>
             </div>
 
             <div>
