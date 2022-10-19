@@ -4,12 +4,12 @@ import './Cards.css'
 
 const Cards = ({ singleCard }) => {
     console.log(singleCard);
-    const {logo, name, total} = singleCard;
+    const {logo, name, total, id} = singleCard;
 
     return (
         
         <div className='card-container'>
-            <Link to='/blogs'>
+            <Link to={`https://openapi.programming-hero.com/api/quiz/${id}`}>
             <img src={logo} alt="" />
             <p>Name: {name}</p>
             <p>Total: {total}</p>
