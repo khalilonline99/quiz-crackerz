@@ -45,10 +45,9 @@
  }
 
 /* tablet device */
- @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
     .nav-container {
         display: flex;
-        flex-direction: column;
         width: 100%;
         border-radius: 0px;
         padding: 5px;

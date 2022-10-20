@@ -44,12 +44,12 @@
     }
  }
 
- @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
     .hero-container{
         width: 100%;
     }
     .text-on-header-image{
-        font-size: 25px;
+        font-size: 45px;
     }
     .text-on-header-image {
         position: absolute;
