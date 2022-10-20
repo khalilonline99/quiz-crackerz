@@ -1,0 +1,8 @@
+.bar-chart {
+    margin: auto;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    width: 75%;
+    color: white;
+    padding: 10px;
+}
