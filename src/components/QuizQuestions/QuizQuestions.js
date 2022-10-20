@@ -14,10 +14,17 @@ const QuizQuestions = ({ questions }) => {
     const sendAnswer = (answer) => {
         console.log(answer, "is given by student");
         setGivenAnswer(answer)
+
+        if (answer === correctAnswer){
+            toast.success('correct answer')
+        }
+        else{
+            toast.warning('wrong answer')
+        }
     }
 
     const showAnswer = () => {
-        toast.success(`Answer: ${correctAnswer}`)        
+        toast.success(`Answer: ${correctAnswer}`)
     }
 
 
@@ -36,10 +43,9 @@ const QuizQuestions = ({ questions }) => {
                 </div>
 
                 <div className='answer-remark'>
-                    {
-                        givenAnswer !== correctAnswer ? <div>Remarks: Please choose the correct answer.</div> : <div>Correct Answer!</div>
-                    }
+                    
                 </div>
+
             </div>
 
             <div>
@@ -47,7 +53,7 @@ const QuizQuestions = ({ questions }) => {
             </div>
             <ToastContainer
                 position="top-center"
-                autoClose={3000}
+                autoClose={1000}
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick
@@ -58,7 +64,7 @@ const QuizQuestions = ({ questions }) => {
                 theme="light"
             />
         </div>
-    );  
+    );
 };
 
 export default QuizQuestions;
