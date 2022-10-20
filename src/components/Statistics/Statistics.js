@@ -13,9 +13,9 @@ const Statistics = () => {
         <div className='stat'>
             <h3>Statistics</h3>
             <p>Please check the statistics of total quiz per module.</p>
-            <ResponsiveContainer width="95%" height={300}>
+            <ResponsiveContainer width="75%" height={350} className='bar-chart'>
 
-                <BarChart width={650} height={400} data={data} className='bar-chart'>
+                <BarChart width={450} height={400} data={data} >
                     <XAxis dataKey="name" /> <YAxis />
                     <Bar dataKey="total" fill="#8884d8" />
                 </BarChart>
