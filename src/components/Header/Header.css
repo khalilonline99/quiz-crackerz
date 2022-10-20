@@ -17,6 +17,9 @@
 .nav-container a:hover {
     color: white;
 }
+.nav-container a.active {
+    color: crimson;
+}
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
     .nav-container {
@@ -38,6 +41,7 @@
         color: darkblue;
         font-size: 20px;
     }
+    
  }
 
 /* tablet device */
