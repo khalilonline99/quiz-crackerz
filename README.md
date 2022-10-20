@@ -1,6 +1,6 @@
 # Knowledge checker website
 
-You can check the [live website here](https://github.com/facebook/create-react-app).
+You can check the [live website here](https://knowledge-checker-live.netlify.app)
 
 ## What is in this website project?
 
