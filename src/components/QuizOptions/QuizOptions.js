@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './QuizOptions.css'
 
 const QuizOptions = (props) => {
     const { option, correctAnswer } = props;
@@ -14,7 +15,7 @@ const QuizOptions = (props) => {
     // }
 
     return (
-        <div>
+        <div className='quiz-options'>
             <input type="radio" name="fav_language" value={option} onChange={(e) => setAnswer(e.target.value) } onClick={(e)=> props.sendAnswer(e.target.value)}/> {option}
             
         </div>

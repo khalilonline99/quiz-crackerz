@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Cards.css'
 
 const Cards = ({ singleCard }) => {
-    console.log(singleCard);
+    // console.log(singleCard);
     const {logo, name, total, id} = singleCard;
 
     return (
@@ -13,6 +13,7 @@ const Cards = ({ singleCard }) => {
             <img src={logo} alt="" />
             <p>Name: {name}</p>
             <p>Total: {total}</p>
+            <button>Start</button>
             </Link>
         </div>
 

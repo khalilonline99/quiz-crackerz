@@ -18,8 +18,49 @@
 }
 
 .hero-container img {
-    /* width: 500px; */
     height: 350px;
     padding: 10px;
     opacity: 65%;
 }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .hero-container{
+        width: 100%;
+    }
+    .text-on-header-image{
+        font-size: 25px;
+    }
+    .text-on-header-image {
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: 25%
+    }
+    .hero-container img {
+        max-height: 45%;
+        max-width: 95%;
+        padding: 10px;
+        opacity: 65%;
+    }
+ }
+
+ @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .hero-container{
+        width: 100%;
+    }
+    .text-on-header-image{
+        font-size: 25px;
+    }
+    .text-on-header-image {
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        bottom: 25%
+    }
+    .hero-container img {
+        max-height: 45%;
+        max-width: 95%;
+        padding: 10px;
+        opacity: 65%;
+    }
+ }

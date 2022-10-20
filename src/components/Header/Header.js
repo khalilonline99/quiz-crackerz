@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='nav-container'>
-            <div>
+            <div className='logo'>
                 <h2><Link to='/'>Knowledge Checker</Link></h2>
             </div>
 

@@ -8,3 +8,29 @@
 .quiz img {
     width: 150px;
 }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .quiz {
+        background-color: blueviolet;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .quiz img {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .quiz {
+        background-color: blueviolet;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .quiz img {
+        width: 50%;
+    }
+}

@@ -6,14 +6,14 @@ import './Home.css'
 
 const Home = () => {
     const quizCard = useLoaderData();
-    // console.log(quizCard);
+    console.log(quizCard);
     const quizCards = quizCard.data
     return (
         <div>
             <Hero></Hero>
             <div className='all-cards'>
             {
-               quizCards.map(singleCard => <Cards singleCard={singleCard}></Cards>)
+               quizCards.map((singleCard , i) => <Cards key={i} singleCard={singleCard}></Cards>)
             }
             </div>
         </div>

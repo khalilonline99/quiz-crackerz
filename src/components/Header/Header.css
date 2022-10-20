@@ -17,3 +17,47 @@
 .nav-container a:hover {
     color: white;
 }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0px;
+        padding: 5px;
+        
+    }
+
+    .logo h2{
+       font-size: 20px;
+    }
+
+    .nav-container a {
+        text-decoration: none;
+        padding: 5px;
+        color: darkblue;
+        font-size: 20px;
+    }
+ }
+
+/* tablet device */
+ @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0px;
+        padding: 5px;
+    }
+
+    .logo h2{
+        font-size: 20px;
+     }
+     .nav-container a {
+        text-decoration: none;
+        padding: 8px;
+        color: darkblue;
+        font-size: 20px;
+    }
+
+  }

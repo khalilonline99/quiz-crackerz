@@ -6,3 +6,24 @@
     color: white;
     padding: 10px;
 }
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .bar-chart {
+        border-radius: 0;
+    }
+    .stat p {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    .stat p {
+        margin-top: 25px;
+    }
+    .bar-chart {
+        border-radius: 0;
+    }
+
+}
